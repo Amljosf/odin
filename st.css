@@ -1,0 +1,107 @@
+.main {
+  display: flex;
+}
+.odin {
+  width: 550px;
+  height: 800px;
+  position: relative;
+}
+.left .voda {
+  position: relative;
+  width: 500px;
+  height: 100vh;
+}
+.logo .idea {
+  position: absolute;
+  width: 100px;
+  margin-left: 170px;
+}
+.logo {
+  display: flex;
+}
+.logo p {
+  position: relative;
+  margin-left: 275px;
+  font-size: 50px;
+  color: white;
+  font-family: myFirstFont;
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url(./image/Norse-Bold.otf);
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  width: 82vw;
+}
+.form1 {
+  background-color: rgb(192, 192, 192);
+  height: 40vh;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 110px;
+}
+.form1 #text1 {
+  margin-top: 210px;
+  margin-left: 50px;
+}
+.form1 #text2 {
+  margin-left: 50px;
+  font-style: italic;
+}
+.form2 {
+  height: 30vh;
+  padding: 50px;
+  /* margin-left: 20px; */
+  background-color: white;
+}
+.class1 {
+  font-size: 22px;
+  font-style: normal;
+}
+.name {
+  display: flex;
+  gap: 20px;
+}
+.name input{
+    width: 150px;
+    height: 20px;
+    border-radius: 2px;
+}
+input:invalid {
+  border-color: red;
+}
+.name .input .hover{
+    color: green;
+}
+
+#formbox {
+  margin-bottom: 30px;
+  box-shadow: 5px 5px 5px 5px rgb(229, 226, 226);
+}
+
+.form3 {
+  padding: 50px;
+  height: 10vh;
+}
+#green {
+  color: white;
+  background-color: rgba(4, 97, 4, 0.89);
+  border-radius: 10px;
+  width: 170px;
+  height: 50px;
+  cursor: pointer;
+}
+.form3 h4 {
+  font-size: 20px;
+}
+a {
+  color: green;
+}
+.logo{
+  position: relative;
+  bottom:840px;
+  background-color: rgb(0, 0, 0,0.5) ;
+}
